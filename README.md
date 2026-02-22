@@ -1,4 +1,4 @@
-# SuperStepper
+# IP-tm-stepmotor
 
 Simple stepper library with 3 control levels.
 
