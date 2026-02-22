@@ -1,14 +1,15 @@
+// فایل: IP_tm_stepmotor.h
 #pragma once
 #include <Arduino.h>
 
 enum Unit { STEPS, CM };
 enum Dir { CW, CCW };
 
-class SuperStepper {
+class IP_tm_stepmotor {
 
 public:
 
-  SuperStepper(uint8_t stepPin, uint8_t dirPin);
+  IP_tm_stepmotor(uint8_t stepPin, uint8_t dirPin);
 
   void run(long distance, Dir direction); // Easy
 
